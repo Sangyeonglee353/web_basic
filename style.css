@@ -44,3 +44,14 @@ ol {
     border-bottom: none;
   }
 }
+
+.js{
+  font-weight: bold;
+  color:red;
+}
+#first{
+  color:green;
+}
+span{
+  color:blue;
+}
