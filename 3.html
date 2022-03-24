@@ -5,34 +5,7 @@
   <title>WEB1 - JavaScript</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="./style.css" type="text/css">
-  <script>
-    function nightDayHandler(self){
-  var target = document.querySelector('body');
-  if(this.value === 'night'){
-    target.style.background='black';
-    target.style.color='white';
-    this.value = 'day';
-
-    var alist = document.querySelectorAll('a');
-    var i = 0;
-    while(i < alist.length){
-      alist[i].style.color = 'powderblue';
-      i = i + 1;
-    }
-  }else{
-    target.style.background ='white';
-    target.style.color='black';
-    this.value = 'night';
-
-    var alist = document.querySelectorAll('a');
-    var i = 0;
-    while(i < alist.length){
-      alist[i].style.color = 'blue';
-      i = i + 1;
-    }
-  }
-    }
-  </script>
+  <script src="colors.js"></script>
 </head>
 
 <body>
